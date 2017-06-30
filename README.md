@@ -36,15 +36,21 @@ The main algorithm is written in `/scripts/spell_correct.py`.
 ## TODO
 
 1.1. Recollect stop words (`/data/ukr_stop_words.txt`).
+
 1.2. Remove inflections from the candidate set.
+
 1.3. Add hyphenated words on the candidate generation step.
+
 1.4. Use bigger corpus for language modelling and ngrams.
+
 1.5. Add ngram logic to the candidate generation step.
 
+
 2.1 Rerun the system on the scraped data and automatically annotated it.
+
 2.2. Manually annotate the resulting corpus and use it for error model for the same system.
 
-##License
+## License
 
 To be decided.
 
