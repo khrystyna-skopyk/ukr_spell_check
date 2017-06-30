@@ -35,7 +35,8 @@ The main algorithm is written in `/scripts/spell_correct.py`.
 
 ## TODO
 
-**Step 2:**
+**Step 1:**
+
 1.1. Recollect stop words (`/data/ukr_stop_words.txt`).
 
 1.2. Remove inflections from the candidate set.
@@ -47,6 +48,7 @@ The main algorithm is written in `/scripts/spell_correct.py`.
 1.5. Add ngram logic to the candidate generation step.
 
 **Step 2:**
+
 2.1 Rerun the system on the scraped data and automatically annotated it.
 
 2.2. Manually annotate the resulting corpus and use it for error model for the same system.
